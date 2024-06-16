@@ -1,0 +1,391 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "pro.thealpha.duckshooter",
+    "pixelsRounding": false,
+    "projectUuid": "3c0d7b46-9052-4620-a6a8-fdaaa92c04af",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "المطلق على البط",
+    "description": "وازن بين محاولة الحصول على الرصيد وكمية الرصاص المتوفرة لديك، تحتاج لضرب البط الذهبي لتعبئة مخزن السلاح",
+    "author": "Assayyaad",
+    "windowWidth": 960,
+    "windowHeight": 540,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {
+      "android-icon-144": "img/android-icon-144.png",
+      "android-icon-192": "img/android-icon-192.png",
+      "android-icon-36": "img/android-icon-36.png",
+      "android-icon-48": "img/android-icon-48.png",
+      "android-icon-72": "img/android-icon-72.png",
+      "android-icon-96": "img/android-icon-96.png",
+      "android-windowSplashScreenAnimatedIcon": "img/android-windowSplashScreenAnimatedIcon.png",
+      "desktop-icon-512": "img/desktop-icon-512.png",
+      "ios-icon-100": "img/ios-icon-100.png",
+      "ios-icon-1024": "img/ios-icon-1024.png",
+      "ios-icon-114": "img/ios-icon-114.png",
+      "ios-icon-120": "img/ios-icon-120.png",
+      "ios-icon-144": "img/ios-icon-144.png",
+      "ios-icon-152": "img/ios-icon-152.png",
+      "ios-icon-167": "img/ios-icon-167.png",
+      "ios-icon-180": "img/ios-icon-180.png",
+      "ios-icon-20": "img/ios-icon-20.png",
+      "ios-icon-29": "img/ios-icon-29.png",
+      "ios-icon-40": "img/ios-icon-40.png",
+      "ios-icon-50": "img/ios-icon-50.png",
+      "ios-icon-57": "img/ios-icon-57.png",
+      "ios-icon-58": "img/ios-icon-58.png",
+      "ios-icon-60": "img/ios-icon-60.png",
+      "ios-icon-72": "img/ios-icon-72.png",
+      "ios-icon-76": "img/ios-icon-76.png",
+      "ios-icon-80": "img/ios-icon-80.png",
+      "ios-icon-87": "img/ios-icon-87.png",
+      "liluo-thumbnail": "Assets\\logo.jpeg"
+    },
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "dark-colored",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": false
+    },
+    "authorIds": [
+      "P2R4bcPNinTzpRBIMn932XX2NOg2"
+    ],
+    "authorUsernames": [
+      "nabil_alsaiad"
+    ],
+    "categories": [
+      "shooter",
+      "sport"
+    ],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/bg_wood.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\bg_wood.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/grass2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\grass2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/water2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\water2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/bg_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\bg_red.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/curtain_straight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\curtain_straight.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/curtain_left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\curtain_left.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/curtain_right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\curtain_right.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Stall/curtain_rope.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Stall\\curtain_rope.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/crosshair_outline_large.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\crosshair_outline_large.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/shot_blue_large.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\shot_blue_large.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/rifle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\rifle.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/rifle_red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\rifle_red.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/icon_bullet_gold_short.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\icon_bullet_gold_short.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/stick_metal_outline.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\stick_metal_outline.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_outline_yellow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_outline_yellow.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_outline_white.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_outline_white.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/Objects/duck_outline_back.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\Objects\\duck_outline_back.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/HUD/icon_target.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\HUD\\icon_target.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange Bubble Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Bubble Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c7108719eeb51696e6b9bcca1280e5403f7867491f3b02101f759d0e55b112fe_Orange Bubble Button_Hovered.png",
+          "name": "Orange Bubble Button_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange Bubble Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Bubble Button_Idle.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c97e04689076f4c138d10a0dde322d982b332595bce0fe8007ce14bb7a22af21_Orange Bubble Button_Idle.png",
+          "name": "Orange Bubble Button_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Orange Bubble Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Orange Bubble Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/4c35e1cf340a1121bb63e0d0ef834876be8b9427c5a30bafb2e043640d27aab4_Orange Bubble Button_Pressed.png",
+          "name": "Orange Bubble Button_Pressed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/logo.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\logo.jpeg",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/Poppins-Medium.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Poppins-Medium.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b81b0bcafdd4279f3bf8d4d3865f51b9961292dad8b5ccbe88807c8acfb6b11d_Poppins-Medium.ttf",
+          "name": "Poppins-Medium.ttf"
+        }
+      },
+      {
+        "file": "Assets/Sounds/gun-shot.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\gun-shot.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/gun-reload.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\gun-reload.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": true
+      },
+      {
+        "file": "Assets/Sounds/171697__nenadsimic__menu-selection-click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Assets\\Sounds\\171697__nenadsimic__menu-selection-click.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": true,
+        "preloadInCache": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "حالة_اللعبة",
+      "type": "string",
+      "value": "لعب"
+    },
+    {
+      "folded": true,
+      "name": "إيقاف_مؤقت",
+      "type": "boolean",
+      "value": false
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
